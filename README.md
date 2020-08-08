@@ -1,3 +1,3 @@
 # airbnb clone
 
-cloning airbnb with python, django, tailwind
+cloning airbnb with python, django, tailwind :)
