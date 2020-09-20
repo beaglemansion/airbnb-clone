@@ -42,6 +42,8 @@ PROJECT_APPS = [
     "users.apps.UsersConfig",
 ]
 
+THIRD_PARTY_APPS = []
+
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
 
 MIDDLEWARE = [
@@ -118,4 +120,6 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
+# 우리가 만든 user를 쓰기 위해 이 부분을 수정함
+# 항상 수정해야하는 건 아니지만, image추가라던가 다른 필드를 추가하게 될 경우 이런식으로 수정해야함
 AUTH_USER_MODEL = "users.User"
